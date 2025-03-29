@@ -1,14 +1,14 @@
-package com.example.config
+package com.github.itsempa.scathautils.config
 
 import at.hannibal2.skyhanni.deps.moulconfig.Config
 import at.hannibal2.skyhanni.deps.moulconfig.annotations.Category
-import com.example.ExampleMod
-import com.example.ExampleMod.managedConfig
+import com.github.itsempa.scathautils.ScathaUtils
+import com.github.itsempa.scathautils.ScathaUtils.managedConfig
 
 class Features : Config() {
     override fun shouldAutoFocusSearchbar(): Boolean = true
 
-    override fun getTitle(): String = "${ExampleMod.MOD_NAME} ${ExampleMod.VERSION}"
+    override fun getTitle(): String = "${ScathaUtils.MOD_NAME} ${ScathaUtils.VERSION}"
 
     override fun saveNow() = managedConfig.saveToFile()
 

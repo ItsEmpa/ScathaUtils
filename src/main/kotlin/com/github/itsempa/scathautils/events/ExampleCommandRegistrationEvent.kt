@@ -1,8 +1,8 @@
-package com.example.events
+package com.github.itsempa.scathautils.events
 
 import at.hannibal2.skyhanni.api.event.SkyHanniEvent
 import at.hannibal2.skyhanni.config.commands.CommandBuilder
-import com.example.commands.ExampleCommands
+import com.github.itsempa.scathautils.commands.ExampleCommands
 import net.minecraftforge.client.ClientCommandHandler
 
 object ExampleCommandRegistrationEvent : SkyHanniEvent() {

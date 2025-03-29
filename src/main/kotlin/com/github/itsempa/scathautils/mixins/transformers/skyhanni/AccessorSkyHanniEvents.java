@@ -1,4 +1,4 @@
-package com.example.mixins.transformers.skyhanni;
+package com.github.itsempa.scathautils.mixins.transformers.skyhanni;
 
 import at.hannibal2.skyhanni.api.event.SkyHanniEvents;
 import org.spongepowered.asm.mixin.Mixin;
@@ -11,6 +11,6 @@ public interface AccessorSkyHanniEvents {
 
     @SuppressWarnings("unused")
     @Invoker("registerMethod")
-    void examplemod$registerMethod(Method method, Object instance);
+    void scathautils$registerMethod(Method method, Object instance);
 
 }
